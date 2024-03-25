@@ -1,0 +1,24 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+  background-color: rgb(237, 237, 221);
+}
+/* Ensure arrows are displayed for number input */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important; 
+}
+
+/* Ensure arrows are displayed for Firefox */
+input[type="number"] {
+  appearance: textfield !important;
+}
